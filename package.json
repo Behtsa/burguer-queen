@@ -1,0 +1,30 @@
+{
+  "name": "burguer-queen",
+  "version": "1.0.0",
+  "description": "Somos **Burguer Queen**, una cadena de comida rápida 24hrs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Behtsa/burguer-queen.git"
+  },
+  "author": "Monse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Behtsa/burguer-queen/issues"
+  },
+  "homepage": "https://github.com/Behtsa/burguer-queen#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "watchify": "^3.11.0"
+  }
+}
