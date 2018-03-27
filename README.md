@@ -93,3 +93,12 @@ Tu "Single page app" debe tener las siguientes características:
 * No es necesario implementar persistencia
 * No es necesario implementar conexiones remotas
 
+## Added browserify-css
+
+* npm-install browesrify-css
+* modified package json so that we can use bootstrap components
+	- "browserify-css": {
+        "autoInject": true,
+        "minify": true,
+        "rootDir": "."
+    },

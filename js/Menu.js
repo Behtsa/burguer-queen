@@ -1,26 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Button } from 'react-bootstrap';
 
 
 export default function Menu(props) {
     console.log(props);
-    let titulos = Object.keys(props.data[0]);
+    let titles = Object.keys(props.data[0]);
     
-    function Title(titulos){
+    function Title(titles){
        return (
-            titulos.map((item, index)=>{
+            titles.map((item, index)=>{
               <th key={index}>{item}</th>})
        )
     }
 
     function list (props) {
-        const cosas = props.data;
+        const products = props.data;
         return(
-            cosas.map((element, index) =>{
+            products.map((element, index) =>{
               return (<tr key={index}>
                         <td>{element.item}</td>
                         <td>{element.price}</td>
-                        <td><button>Order here</button></td>
+                        <td><Button bsStyle="warning">Order here</Button></td>
                     </tr>)
             }) 
         )    
@@ -29,8 +30,8 @@ export default function Menu(props) {
         <table>
             <thead>
              <tr>
-              {Title(titulos)}
-              <th>Orden</th>
+              {Title(titles)}
+              <th>Order</th>
              </tr>
             </thead>
             <tbody>
