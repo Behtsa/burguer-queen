@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import Bootstrap
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+
 
 
 //Elements
@@ -12,7 +15,7 @@ function App(){
     return(
         <div>
             <Menu data={data.breakfast} />       
-            <Menu data={data.food[0].hambueguesas} />       
+            <Menu data={data.food[0].burguers} />       
         </div>
     )
 }

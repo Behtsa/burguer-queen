@@ -13,7 +13,7 @@ const menu = {
         price: 7
     }],
     food:[{
-        hambueguesas:[{
+        burguers:[{
             item:"simple",
             price: 10
         },{
